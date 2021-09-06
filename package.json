@@ -1,0 +1,27 @@
+{
+  "name": "moneyMaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devSamC/apiThing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devSamC/apiThing/issues"
+  },
+  "homepage": "https://github.com/devSamC/apiThing#readme",
+  "devDependencies": {
+    "jest": "^27.1.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "supertest": "^6.1.6"
+  }
+}
