@@ -15,7 +15,7 @@ class Sausage {
         return sausages;
     }
 
-    static create(Sausage) {
+    static create(sausage) {
         const newSausageId = sausagesData.length + 1;
         const newSausage = new Sausage({id: newSausageId, ...sausage});
         sausagesData.push(newSausage);
